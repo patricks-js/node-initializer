@@ -5,11 +5,10 @@ export default function Home() {
   return (
     <div className="container">
       <Header />
-      <div className="grid grid-cols-2 h-full">
-        <div className="border-r border-border">
+      <div className="max-w-xl mx-auto">
+        <div className="">
           <SelectMainSettings />
         </div>
-        <div>dependencies</div>
       </div>
     </div>
   )
