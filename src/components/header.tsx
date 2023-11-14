@@ -19,7 +19,7 @@ export function Header() {
             href="https://github.com/patricks-js/node-initializer"
             target="_blank"
           >
-            <Button size="icon">
+            <Button variant="ghost" size="icon">
               <Icons.gitHub width={18} height={18} />
             </Button>
           </Link>
