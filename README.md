@@ -4,13 +4,13 @@ Easily initialize your Node project with a boilerplate
 
 Features:
 
-- Project manager
+- Project manager: OK
 
   - npm
   - yarn
   - pnpm
 
-- Language
+- Language: OK
 
   - JavaScript
   - TypeScript
