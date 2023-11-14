@@ -1,0 +1,7 @@
+node_modules
+dist
+coverage
+build
+vitest.config.ts
+commitlint.config.js
+next.config.js
