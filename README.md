@@ -1,8 +1,5 @@
-<img src="https://raw.githubusercontent.com/patricks-js/node-initializer/main/public/project-banner-dark.svg?token=GHSAT0AAAAAACKF6WJZLQW6OXG23V3KI5RAZKUJCLQ#gh-dark-mode-only" width="100%" />
-
-<img src="https://github.com/patricks-js/node-initializer/blob/38422378e0e39ec8cdf57a17ecc609253ccb28c2/public/project-banner-light.svg#gh-light-mode-only" width="100%" />
-
 # Node Initializer
+
 [![license apache](https://img.shields.io/badge/license-Apache2.0-red.svg)](./LICENSE)
 > Easily initialize your Node project with a boilerplate
 
