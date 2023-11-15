@@ -1,4 +1,4 @@
-<img src="https://github.com/patricks-js/node-initializer/blob/main/public/project-banner-dark.svg" width="100%" />
+<img src="https://raw.githubusercontent.com/patricks-js/node-initializer/main/public/project-banner-light.svg?token=GHSAT0AAAAAACKF6WJZLQW6OXG23V3KI5RAZKUJCLQ#gh-light-mode-only" width="100%" />
 
 # Node Initializer
 [![license apache](https://img.shields.io/badge/license-Apache2.0-red.svg)](./LICENSE)
