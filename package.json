@@ -1,6 +1,7 @@
 {
   "name": "node-initializer",
   "version": "0.1.0",
+  "description": "Easily initialize your Node project with a boilerplate",
   "private": true,
   "scripts": {
     "build": "next build",
@@ -46,5 +47,7 @@
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
     "typescript": "^5.2.2"
-  }
+  },
+  "license": "Apache-2.0",
+  "author": "Lucas Patrick <tech.patrick.lsilva@gmail.com>"
 }
