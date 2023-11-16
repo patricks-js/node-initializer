@@ -16,6 +16,5 @@
 - `src/components/form-settings`: All form settings components to define project settings
 - `src/libs`: All coding libraries are included in this directory
 - `src/scripts`: The scripts that configure the project according to the user's settings are here
-- `src/templates/scratch`: The basic template for a Node project
-- `src/templates/temp`: this directory will be created by the scripts according to the user's settings, then it must be deleted
+- `src/temp`: this directory will be created by the scripts according to the user's settings, then it must be deleted
 - `tailwind.config.ts`: the tailwind configuration can be found here
