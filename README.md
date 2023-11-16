@@ -38,7 +38,7 @@
 
 Contributions are always welcome!
 
-See below how to install the project and then go to the [CONTRIBUTING.md](./CONTRIBUTING.md) for ways to get started.
+See below how to install the project and then go to the [CONTRIBUTING.md](./docs/CONTRIBUTING.md) for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
