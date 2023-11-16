@@ -1,6 +1,7 @@
 # Node Initializer
 
 [![license apache](https://img.shields.io/badge/license-Apache2.0-red.svg)](./LICENSE)
+
 > Easily initialize your Node project with a boilerplate
 
 ## Table of contents
@@ -11,7 +12,6 @@
 - [Installation](#installation)
 - [Feedback](#feedback)
 - [License](#license)
-
 
 ## About this project
 
@@ -24,16 +24,16 @@
 
 ## Features
 
-- [x]  Dark/light mode
-- [x]  Choose the language
-- [x]  Choose the package manager
-- [x]  Define node metadata
-    - [x]  Name
-    - [x]  Author
-    - [x]  Description
-- [ ]  Select a framework
-- [ ]  Add dependencies
- 
+- [x] Dark/light mode
+- [x] Choose the language
+- [x] Choose the package manager
+- [x] Define node metadata
+  - [x] Name
+  - [x] Author
+  - [x] Description
+- [ ] Select a framework
+- [ ] Add dependencies
+
 ## Contributing
 
 Contributions are always welcome!
@@ -41,7 +41,6 @@ Contributions are always welcome!
 See below how to install the project and then go to the [CONTRIBUTING.md](./CONTRIBUTING.md) for ways to get started.
 
 Please adhere to this project's `code of conduct`.
-
 
 ## Installation
 
@@ -70,10 +69,10 @@ pnpm install
 ```bash
 pnpm start:dev # Or `pnpm start` to run the build version
 ```
+
 ## Feedback
 
 If you have any feedback, please reach out to me at tech.patrick.lsilva@gmail.com
-
 
 ## License
 
