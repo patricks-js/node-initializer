@@ -58,7 +58,7 @@ git clone https://github.com/patricks-js/node-initializer
 cd node-initializer
 ```
 
-3. Install dependencies (I'm using `pnpm`)
+3. Install dependencies with `pnpm`
 
 ```bash
 pnpm install
