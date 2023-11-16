@@ -2,34 +2,29 @@
 
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
-import { z } from 'zod'
+import axios from 'axios'
 import { Form } from '../ui/form'
 import { SelectPackager } from './form-select-packager'
 import { SelectLanguage } from './form-select-laguages'
 import { DefineMetadata } from './form-define-metadata'
 import { Button } from '../ui/button'
+import { TDataSchema, dataSchema } from '@/@types/data-schema'
 
-const formSchema = z.object({
-  package: z.enum(['npm', 'yarn', 'pnpm'], {
-    required_error: 'You need to select a package manager.',
-  }),
-  language: z.enum(['common-js', 'module-js', 'ts'], {
-    required_error: 'You need to select a language.',
-  }),
-  name: z.string().min(1),
-  author: z.string().min(1),
-  description: z.string(),
-})
-
-type TFormSchema = z.infer<typeof formSchema>
+const formSchema = dataSchema
 
 export function SelectMainSettings() {
-  const form = useForm<TFormSchema>({
+  const form = useForm<TDataSchema>({
     resolver: zodResolver(formSchema),
   })
 
-  function onSubmit(values: TFormSchema) {
-    console.log(values)
+  async function onSubmit(values: TDataSchema) {
+    await axios.post('/api/generate-project', {
+      package: values.package,
+      language: values.language,
+      name: values.name,
+      author: values.author,
+      description: values.description,
+    })
   }
 
   return (
