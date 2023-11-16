@@ -8,6 +8,10 @@ pnpm husky:prepare
 
 The command installs git hooks to ensure that commits and code styles are standardized. The commit pattern used in this project is the conventional commits, that can be found at [conventionalcommits.org](https://www.conventionalcommits.org/en/v1.0.0/).
 
+### Project structure
+
+You can found the structure of this project at [STRUCTURE.md](./STRUCTURE.md)
+
 ### Step-by-step
 
 1. Fork it!
