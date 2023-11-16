@@ -4,9 +4,9 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
 import { Form } from '../ui/form'
-import { SelectPackager } from './select-packager'
-import { SelectLanguage } from './select-laguages'
-import { DefineMetadata } from './define-metadata'
+import { SelectPackager } from './form-select-packager'
+import { SelectLanguage } from './form-select-laguages'
+import { DefineMetadata } from './form-define-metadata'
 import { Button } from '../ui/button'
 
 const formSchema = z.object({

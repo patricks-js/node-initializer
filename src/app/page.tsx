@@ -1,4 +1,4 @@
-import { SelectMainSettings } from '@/components/main-settings/select-main-settings'
+import { SelectMainSettings } from '@/components/form-settings/form'
 import { Header } from '@/components/header'
 
 export default function Home() {
