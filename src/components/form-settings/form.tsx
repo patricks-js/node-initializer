@@ -29,7 +29,7 @@ export function SelectMainSettings() {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="mt-5 space-y-5">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-5">
         <div className="grid grid-cols-2 mb-5">
           <SelectPackager />
           <SelectLanguage />
