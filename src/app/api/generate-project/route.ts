@@ -1,4 +1,4 @@
-import { formSchema } from '@/components/form-settings/form'
+import { dataSchema } from '@/@types/data-schema'
 import { setNodeMetadata } from '@/scripts/set-node-metadata'
 import { setupScratch } from '@/scripts/setup-scratch'
 import { NextRequest, NextResponse } from 'next/server'
@@ -6,7 +6,7 @@ import { NextRequest, NextResponse } from 'next/server'
 export async function POST(request: NextRequest) {
   const body = await request.json()
 
-  const bodyParsed = formSchema.parse(body)
+  const bodyParsed = dataSchema.parse(body)
 
   const metadata = {
     name: bodyParsed.name,

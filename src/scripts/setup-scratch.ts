@@ -1,8 +1,8 @@
-import { TFormSchema } from '@/components/form-settings/form'
+import { TDataSchema } from '@/@types/data-schema'
 import fs from 'node:fs'
 import path from 'node:path'
 
-export function setupScratch(data: TFormSchema): string {
+export function setupScratch(data: TDataSchema): string {
   const projectPath = path.join(
     process.cwd(),
     'src',
