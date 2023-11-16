@@ -25,7 +25,7 @@
 ## Features
 
 - [x] Dark/light mode
-- [x] Choose the language
+- [x] Choose the language [JavaScript (common or module) or TypeScript]
 - [x] Choose the package manager
 - [x] Define node metadata
   - [x] Name
