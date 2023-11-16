@@ -14,5 +14,12 @@
       "source.fixAll.eslint": true
     }
   },
-  "cSpell.words": ["commitlint", "Initializr"]
+  "cSpell.words": [
+    "clsx",
+    "commitlint",
+    "hookform",
+    "Initializr",
+    "lucide",
+    "rocketseat"
+  ]
 }
