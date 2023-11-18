@@ -5,7 +5,7 @@ import { useForm } from 'react-hook-form'
 import axios from 'axios'
 import { Form } from '../ui/form'
 import { SelectPackager } from './form-select-packager'
-import { SelectLanguage } from './form-select-laguages'
+import { SelectLanguage } from './form-select-languages'
 import { DefineMetadata } from './form-define-metadata'
 import { Button } from '../ui/button'
 import { TDataSchema, dataSchema } from '@/@types/data-schema'
@@ -29,8 +29,8 @@ export function SelectMainSettings() {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-5">
-        <div className="grid grid-cols-2 mb-5">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-5 flex-1">
+        <div className="grid mb-5 gap-5 lg:gap-0 lg:grid-cols-2">
           <SelectPackager />
           <SelectLanguage />
         </div>
